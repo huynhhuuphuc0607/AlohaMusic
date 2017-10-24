@@ -90,6 +90,7 @@ public class MusicActivity extends AppCompatActivity {
                 }
                 else {
                     hulaVideoView.start();
+                    hulaButton.setText(R.string.hula_button_pause_text);
                     ukeleleButton.setVisibility(View.INVISIBLE);
                     ipuButton.setVisibility(View.INVISIBLE);
                 }
